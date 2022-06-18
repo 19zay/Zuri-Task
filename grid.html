@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <style>
+        body{
+           background-color: #1A1C28; 
+        }
+        .grid-box{
+            display: grid;
+            width: 700px;
+            height: 500px;
+            position: fixed;
+            top: 120px;
+            left: 350px;
+            grid-template-columns:repeat(3, 1fr)  ;
+            grid-template-rows: repeat(3, 1fr);
+            gap: 15px;
+            
+        }
+        .grid-box > div{
+            padding: 1em;
+        }
+        .div1{
+            background-color: #EB5020;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .div2{
+            background-color: #FFA401; 
+        }
+        .div3{
+            background-color: #05AA42;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 4; 
+        }
+        .div4{
+            background-color: #01AEFD;
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        .div5{
+            background-color: #01AEFD;
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+    </style>
+    <div class="grid-box">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+        <div class="div4"></div>
+        <div class="div5"></div>
+    </div>
+</body>
+</html>

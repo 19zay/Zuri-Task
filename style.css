@@ -72,3 +72,14 @@ body {
   background-color: red;
   color: white;
 }
+.gotorep{
+ position: relative;
+  top: 90px;
+  left: 700px;
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: #EB7373;
+  color: white;
+}
